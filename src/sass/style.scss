@@ -1,8 +1,26 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+@import 'libs/bootstrap-grid.min.css';
+@import'base/variables.scss';
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
+    color: $text-color;
 }
+
+a{
+
+    color: $text-color;
+    &:hover{
+        text-decoration: none
+    }
+
+}
+@import'blocks/title.scss';
+@import 'blocks/menu.scss';
+@import 'blocks/promo.scss';
+@import 'media/promo-media.scss';
+@import 'media/title-media.scss';
+@import 'media/btn-media.scss'

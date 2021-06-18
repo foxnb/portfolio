@@ -1,0 +1,151 @@
+@media (max-width:1200px) {
+
+    .container{
+        max-width: 960px;
+
+        .hamburger{
+            height: 2.3rem;
+        }
+
+        .circlegroup{
+            margin-right: 13rem;
+        }
+
+        .promo{
+            &__btns{
+                margin-top: 30px;
+                width: 510px;
+                &__link{
+                    width: 12rem;
+                }
+            }
+
+
+
+        }
+
+        .fox{
+            height: 15rem;
+            right:0px;
+            top: 10rem;
+        }
+
+
+
+    }
+
+
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+        .hamburger{
+            height: 2rem;
+            span{
+                width: 3rem;
+                height: 0.35rem;
+            }
+        }
+        .circlegroup{
+            margin-right: 10rem;
+        }
+
+        .promo{
+
+
+            &__btns{
+                margin-top: 30px;
+                width: 440px;
+                &__link{
+                    padding-top: 0rem;
+                    width:10rem;
+                    height: 2rem;
+                }
+            }
+
+            // &__title{
+
+            // }
+        }
+        .fox{
+            height: 10rem;
+
+            top: 8rem;
+        }
+    }
+
+
+}
+
+@media (max-width:768px) {
+    .container{
+         max-width: 540px;
+         .hamburger{
+            height: 1.5rem;
+            span{
+                width: 2.5rem;
+                height: 0.2rem;
+            }
+        }
+
+        .circlegroup{
+            margin-right: 7rem;
+        }
+
+        .fox{
+            height: 8rem;
+
+            top: 8rem;
+        }
+
+    }
+}
+
+@media (max-width:540px) {
+    .promo{
+    .container{
+         width: 100%;
+         padding: 0 10px;
+
+            .hamburger{
+                height: 1.5rem;
+                span{
+                    width: 2rem;
+                    height: 0.15rem;
+                    }
+            }
+
+            .circlegroup{
+                display: none;
+            }
+            .circlegroup_mob{
+                display: inline-block;
+                width: 100%;
+                img{margin: 0 auto;}
+
+            }
+
+                &__btns{
+                    flex-direction: column;
+                       margin-top: 30px;
+                       width: 120px;
+                   }
+
+                   &__title{
+                       max-width: 190px;
+                   }
+
+
+
+
+            .fox{
+                height: 8rem;
+
+                top: 8rem;
+            }
+        }
+    }
+
+
+}

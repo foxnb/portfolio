@@ -1,0 +1,106 @@
+.promo{
+
+    position: relative;
+    min-height: 430px;
+    background: linear-gradient(180.64deg, #B5FF56 -4.06%, rgba(255, 255, 255, 0) 99.49%);
+    .container{
+    position:relative;
+
+    }
+
+    &__subtitle{
+        position: absolute;
+        top: 200px;
+        left: 0px;
+        padding-top: 4px;
+    }
+
+    &__title{
+        margin-top: 0px;
+    }
+    .circlegroup{
+        position: relative;
+        margin-right: 18rem;
+        img{
+            width: 100%;
+        }
+
+
+    }
+    .circlegroup_mob{
+        display: none;
+    }
+
+    .fox{
+        position: absolute;
+
+        right: 1rem;
+        top: 12rem;
+
+
+    }
+
+    .hamburger{
+
+        position: absolute;
+        top:25px;
+        right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+        cursor: pointer;
+        height: 2.5rem;
+
+
+
+
+        // position: absolute;
+        // top: 25px;
+        // right: 0px;
+        span{
+            display: block;
+            width: 60px;
+            height: 7px;
+            border-radius: 6px;
+
+        }
+        span.light_green{
+        background-color:  #58A240;
+        }
+        span.green{
+
+            background-color: #315C22;
+        }
+        span.black{
+            background-color: #0D1909;
+        }
+    }
+
+    &__btns{
+        margin-top: 30px;
+        display: flex;
+        width: 664px;
+        justify-content: space-between;
+
+        &__link {
+            font-size: 24px;
+            display: block;
+            width: 268px;
+            height: 67px;
+            text-align: center;
+            padding-top: 25px;
+            background-color: white;
+            border: 1px solid $dark-green;
+
+
+        }
+
+        .btn{
+            background-color: $medium-green;
+            border: none;
+        }
+    }
+
+
+}

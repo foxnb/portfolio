@@ -1,0 +1,56 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+
+    }}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+        .promo__btns{
+            .promo__link {
+                width: 111px;
+            }
+        }
+
+
+
+    }
+
+    }
+
+@media (max-width:768px) {
+    .container{
+         max-width: 540px;
+
+        }}
+
+@media (max-width:540px) {
+            .container{
+                width: 100%;
+                padding: 0 10px;
+
+
+
+
+                    .btn{
+                        border: 1px solid red;
+                    }
+
+            }}
+
+
+// .promo__btns{
+//     margin-top: 30px;
+//     width: 664px;
+
+//     .promo__link {
+//         width: 268px;
+//         height: 67px;
+//         padding-top: 25px;
+//     }
+
+//     .btn{
+//         border: 1px solid $dark-green;
+//     }
+// }
