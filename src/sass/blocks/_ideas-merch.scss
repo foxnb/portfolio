@@ -1,0 +1,23 @@
+.ideas-merch{
+    min-height: 400px;
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(350px, 800px));
+        grid-template-rows: repeat(2, minmax(500px, auto));
+        grid-auto-rows: minmax(500px, auto);
+    }
+
+    #cup{
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    #feather{
+        grid-row-start:1;
+        grid-row-end:2;
+
+    }
+
+    &__title{
+        margin-bottom: 1rem;
+    }
+}

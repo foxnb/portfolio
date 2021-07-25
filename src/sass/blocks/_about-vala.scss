@@ -1,0 +1,42 @@
+.about-vala{
+    margin-bottom: 3.5rem;
+
+    &__block{
+        display: flex;
+    }
+    &__descr-block{
+    padding-top: 6rem;
+    span.link{
+        text-decoration: dotted underline;
+    }
+
+    a{
+
+        color: $dark-green;
+        transition: 0.3s;
+        &:hover{
+            color: $orange;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+    // &__descr-block{
+    //     padding-top: 6rem;
+
+    //     font-size: $fz-24-ordinary;
+    //     line-height: 61px;
+    //     letter-spacing: 0.035em;
+    //     color:$text-color;
+    // }
+
+
+
+}

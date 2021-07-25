@@ -11,24 +11,24 @@
             margin-right: 13rem;
         }
 
-        .promo{
-            &__btns{
-                margin-top: 30px;
-                width: 510px;
-                &__link{
-                    width: 12rem;
-                }
-            }
+        // .promo{
+        //     &__btns{
+        //         margin-top: 30px;
+        //         width: 510px;
+        //         &__link{
+        //             width: 12rem;
+        //         }
+        //     }
 
 
 
-        }
+        // }
 
-        .fox{
-            height: 15rem;
-            right:0px;
-            top: 10rem;
-        }
+        // .fox{
+        //     height: 15rem;
+        //     right:0px;
+        //     top: 10rem;
+        // }
 
 
 
@@ -55,24 +55,26 @@
 
 
             &__btns{
-                margin-top: 30px;
-                width: 440px;
+                // margin-top: 30px;
+                // width: 440px;
                 &__link{
-                    padding-top: 0rem;
-                    width:10rem;
-                    height: 2rem;
+                    font-size: $fz-20-media;
+                    // padding-top: 0rem;
+                    // width:10rem;
+                    // height: 2rem;
                 }
             }
 
-            // &__title{
-
-            // }
+            &__subtitle{
+                padding-top: 10rem;
+                font-size: $fz-20-media;
+            }
         }
-        .fox{
-            height: 10rem;
+        // .fox{
+        //     height: 10rem;
 
-            top: 8rem;
-        }
+        //     top: 8rem;
+        // }
     }
 
 
@@ -93,59 +95,90 @@
             margin-right: 7rem;
         }
 
-        .fox{
-            height: 8rem;
+        // .fox{
+        //     height: 8rem;
 
-            top: 8rem;
+        //     top: 8rem;
+        // }
+
+        .promo{
+            &__title{
+                padding-top:3rem;
+            }
+            &__btns{
+                flex-direction: column;
+                margin-top: 1.5rem;
+                width: 120px;
+                &__link{
+                    padding-top: 5px;
+                    margin-top: 1.5rem;
+                    width: 100%;
+                    height: 2.8rem;
+                }
+            }
+            &__subtitle{
+                padding-top: 9rem;
+            }
         }
-
     }
 }
 
 @media (max-width:540px) {
     .promo{
+        background: url("../../img/fox_full_media540.png") no-repeat, url(../../img/background_water2.png) repeat-x;
+    }
+
     .container{
-         width: 100%;
-         padding: 0 10px;
+        width: 100%;
+        padding: 0 10px;
 
-            .hamburger{
-                height: 1.5rem;
-                span{
-                    width: 2rem;
-                    height: 0.15rem;
-                    }
-            }
-
-            .circlegroup{
-                display: none;
-            }
-            .circlegroup_mob{
-                display: inline-block;
-                width: 100%;
-                img{margin: 0 auto;}
-
-            }
-
-                &__btns{
-                    flex-direction: column;
-                       margin-top: 30px;
-                       width: 120px;
-                   }
-
-                   &__title{
-                       max-width: 190px;
-                   }
-
-
-
-
-            .fox{
-                height: 8rem;
-
-                top: 8rem;
+        .hamburger{
+            height: 1.5rem;
+            span{
+                width: 2rem;
+                height: 0.15rem;
             }
         }
+
+        .circlegroup{
+            display: none;
+        }
+
+        .circlegroup_mob{
+            position:absolute;
+            display: flex;
+            width: 100%;
+
+            img{width: 100%;
+                padding-right:5rem;
+            }
+        }
+
+
+
+        .promo{
+
+
+            &__title{
+                max-width: 50%;
+            }
+
+
+        }
+
+
+
+
+
+
+
+            // .fox{
+            //     height: 8rem;
+
+            //     top: 8rem;
+            // }
     }
+
 
 
 }

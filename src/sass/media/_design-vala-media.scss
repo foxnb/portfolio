@@ -1,0 +1,108 @@
+@media (max-width:1200px) {
+    .container{
+     max-width: 960px;
+
+
+    }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+        .design-vala{
+
+                &__block{
+                    margin-bottom: 2.5rem;
+                }
+
+            &__colors{
+                grid-template-rows: 2rem;
+                gap: 1rem;
+                &_elem{
+                    width:2rem;}
+            }
+        }
+
+
+
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+
+        .design-vala{
+            &__design_title{
+                margin-bottom: 1.5rem;
+                padding-top: 0rem;
+            }
+            &__block{
+                margin-bottom: 1.5rem;
+                display:grid;
+                grid-template-columns: 1fr;
+                #design_1{
+                    display: block;
+                }
+                #design_2{
+                    display: none;
+                }
+            }
+
+
+            &__colors{
+                margin-bottom: 1.5rem;
+                justify-items: end;
+                grid-template-rows: 2rem;
+                gap: 1rem;
+                &_elem{
+                    width:2rem;}
+            }
+
+            &__fonts{
+                margin-bottom: 0rem;
+            }
+
+            &__photos_title{
+                margin-bottom: 1.5rem;
+            }
+
+            &__elem{
+                text-align: end;
+            }
+
+            &__menu_title{
+                margin-bottom: 1.5rem;
+            }
+
+            &__descr{
+                margin-bottom: 1.5rem;
+            }
+            &__photos_text{
+                margin-bottom: 1.5rem;
+            }
+
+        }
+
+        // for all pictures are here!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+        img{
+            padding-bottom: 1.5rem;
+        }
+
+
+
+    }
+}
+
+
+
+@media (max-width:540px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+
+
+    }
+}

@@ -1,0 +1,84 @@
+.design-vala{
+    &__design_title{
+        margin-bottom: 3.5rem;
+        padding-top: 3rem;
+    }
+    &__block{
+        margin-bottom: 3.5rem;
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        #design_1{
+            display: none;
+        }
+
+    }
+
+    &__colors{
+        margin-bottom: 3.5rem;
+        display:grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 4.3rem;
+        gap: 2rem;
+        &_elem{
+            width:4.3rem;
+        //     height: 4.3rem;
+        }
+
+        #green_l{
+            background-color: #BADCCD;
+        }
+
+        #green_m {
+            background-color:#50B193;
+        }
+
+        #green_d{
+            background-color: #008F65;
+        }
+
+        #grey_d{
+            background-color: #4C4C4C;
+        }
+
+        #yellow{
+            background-color: #EAD54B;
+        }
+    }
+
+    &__fonts{
+        font-family: 'Nunito' sans-serif;
+        font-size: $fz-40-page-t;
+        span{
+            font-family: 'Pangolin' sans-serif;
+            font-size: $fz-36-subt;
+            text-transform: uppercase;
+        }
+    }
+
+    &__descr{
+        margin-bottom: 3.5rem;
+    }
+
+    &__photos_title{
+        margin-bottom: 3.5rem;
+    }
+
+    picture{
+        margin-bottom: 3.5rem;
+    }
+
+    &__photos_text{
+        margin-bottom: 3.5rem;
+    }
+    &__menu_title{
+        margin-bottom: 3.5rem;
+    }
+
+    img{
+    padding-bottom: 3.5rem;
+    @include pic_center;
+    }
+
+
+}

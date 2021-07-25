@@ -1,0 +1,63 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+        .portfolio{
+            &__grid-container{
+
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(3, minmax(auto, auto));
+                grid-auto-rows: 1fr;
+                gap:1rem;
+                justify-content: center;
+
+                #p_first{
+
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                }
+
+                #p_second{
+
+                    grid-row-start: 2;
+                    grid-row-end: 3;
+                }
+                #p_third{
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+
+                }
+            }}
+
+    }}
+
+@media (max-width:768px) {
+    .container{
+         max-width: 540px;
+
+        }}
+
+@media (max-width:540px) {
+            .container{
+                width: 100%;
+                padding: 0 10px;
+                .portfolio{
+                    &__name{
+                        font-weight: bold;
+                        font-size: $fz-20-media;
+                        line-height: 150%;
+                        text-align: right;
+                        letter-spacing: 0.2em;
+                    }
+                    &__project-bike{
+                        text-align: right;
+                    }
+                    &__img_bike{
+                        justify-items: right;
+                    }
+                }
+}           }

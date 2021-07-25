@@ -1,7 +1,8 @@
 @import 'libs/bootstrap-reboot.min';
 
-@import 'libs/bootstrap-grid.min.css';
+@import 'libs/bootstrap-grid.min.scss';
 @import'base/variables.scss';
+@import 'base/mixins';
 
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -17,10 +18,45 @@ a{
         text-decoration: none
     }
 
+
 }
-@import'blocks/title.scss';
+
+// picture{
+//     display: block;
+//     margin: 0 auto;
+// }
+// source{
+//     display: block;
+//     margin: 0 auto;
+// }
+@import 'blocks/title.scss';
 @import 'blocks/menu.scss';
 @import 'blocks/promo.scss';
+@import 'blocks/hamburger';
+@import 'blocks/about.scss';
+@import 'blocks/portfolio';
+@import 'blocks/skills';
+@import 'blocks/education';
+@import 'blocks/contacts';
+@import 'blocks/main';
+@import 'blocks/about-vala';
+@import 'blocks/numbers-title-vala';
+@import 'blocks/research-vala';
+@import 'blocks/prototype-vala';
+@import 'blocks/design-vala';
+@import 'blocks/prod-vala';
+@import 'blocks/ideas-main';
+@import 'blocks/ideas-merch';
 @import 'media/promo-media.scss';
 @import 'media/title-media.scss';
-@import 'media/btn-media.scss'
+@import 'media/about-media.scss';
+@import 'media/portfolio-media';
+@import 'media/about-vala-media';
+@import 'media/numbers-title-vala-media';
+@import 'media/research-vala-media';
+@import 'media/prototype-vala-media';
+@import 'media/design-vala-media';
+@import 'media/prod-vala-media';
+@import 'media/ideas-media';
+@import 'media/menu-media';
+

@@ -1,0 +1,39 @@
+.prod-vala{
+    margin-bottom: 3.5rem;
+    &__block{
+        margin-bottom: 3.5rem;
+        display: flex;
+        width: 100%;
+        :nth-child(2){
+            align-self: center;
+            justify-content:flex-end;
+        }
+    }
+    &__elem{
+        margin-bottom: 3.5rem;
+    }
+
+    &__descr{
+        margin-bottom: 3.5rem;
+    }
+    &__title{
+        margin-bottom: 3.5rem;
+    }
+
+    img{
+        padding-bottom: 3.5rem;
+        @include pic_center;
+    }
+
+    &__link{
+        a{
+            color: $dark-green;
+            transition: 0.3s;
+            &:hover{
+                color: $orange;
+
+            }
+        }
+    }
+
+}

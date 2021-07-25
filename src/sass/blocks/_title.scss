@@ -3,11 +3,50 @@
 }
 
 .title_fz24{
-font-size: 24px;
+font-size: $fz-24-ordinary;
 }
 
 .title_fz72{
 font-weight: normal;
 font-size: 72px;
 letter-spacing: 0.0409em;
+}
+.subtitle{
+   text-align: center;
+   font-size: $fz-36-subt;
+   margin-bottom: 1rem;
+}
+
+.main__title{
+    text-align: center;
+    padding-top: 5.7rem;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size:$fz-40-page-t;
+    line-height: 46px;
+    text-transform: uppercase;
+    color:$text-color;
+    span{
+        font-size: $fz-48;
+        text-transform: uppercase;
+        color: $dark-green;
+    }
+}
+
+.vala-subtitle{
+    font-size: $fz-36-subt;
+}
+
+.ideas-text{
+    font-size: $fz-24-ordinary;
+}
+
+.ideas-title{
+    font-size: $fz-36-subt;
+}
+.ideas-bigtitle{
+    font-weight: bold;
+    font-size: $fz-40-page-t;
+    text-transform: uppercase;
 }

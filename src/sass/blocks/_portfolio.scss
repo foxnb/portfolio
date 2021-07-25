@@ -1,0 +1,69 @@
+.portfolio{
+    margin-bottom: 3.5rem;
+    &__grid-container{
+        display: grid;
+        grid-template-columns: repeat(3, minmax(300px, auto ));
+        grid-template-rows: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        gap:1rem;
+        justify-content: center;
+
+
+
+
+
+        #p_first{
+
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+
+        #p_second{
+
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+        #p_third{
+            grid-column-start: 2;
+            grid-column-end: 4;
+
+        }
+
+
+
+
+    }
+
+    &__grid-elem{
+        width: 100%;
+
+        position: relative;
+
+        background: #FFFFFF;
+        box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.25);
+        img{
+            justify-self: center;
+        }
+
+
+    }
+    &__name{
+        font-weight: bold;
+        font-size: $fz-24-ordinary;
+        line-height: 216.9%;
+        text-align: right;
+        letter-spacing: 0.34em;
+        color: $grey-portfolio;
+    }
+
+    &__project-bike{
+        text-align: left;
+    }
+    // &__img_bike{
+    //     // justify-items: right;
+
+    // }
+
+
+
+}

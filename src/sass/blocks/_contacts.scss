@@ -1,0 +1,16 @@
+.contacts{
+    &__item{
+        display: flex;
+        margin-bottom: 3.5rem;
+    }
+    &__text{
+        margin-left: 2rem;
+    }
+
+}
+
+.cont_phone{
+    &:hover{
+        color: $orange;
+    }
+}

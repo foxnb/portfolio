@@ -1,0 +1,18 @@
+.skills{
+    // margin-bottom: 3.5rem;
+    &__block{
+        display:flex;
+    }
+    &__list{
+        margin-left: 2rem;
+    }
+    &__item{
+        margin-bottom: 3.5rem;
+    }
+    li{
+        list-style-type: none;
+    }
+    picture{
+        padding-top: 0.4rem;
+    }
+}

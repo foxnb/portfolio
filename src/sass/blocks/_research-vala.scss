@@ -1,0 +1,22 @@
+.research-vala{
+    &__block{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(2, minmax(200px, auto));
+        grid-auto-rows: auto;
+    }
+    #research_3{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    #research_2{
+
+        justify-self: right;
+
+    }
+
+    .research_title{
+        margin-bottom: 3.5rem;
+        min-width: 550px
+    }
+}

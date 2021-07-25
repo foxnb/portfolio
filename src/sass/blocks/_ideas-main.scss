@@ -1,0 +1,25 @@
+.ideas{
+    background: #D2D2D4;
+}
+
+.ideas-main{
+    height: 100vh;
+    background: url("../../img/ideas/background_ideas_fullbg.svg") no-repeat 80%/cover;
+    // &__img{
+    //     position: absolute;
+    //     top:0px
+    // }
+    &__title{
+        padding-top: 10rem ;
+        text-align: end;
+    }
+
+
+
+    &__text{
+        padding-top: 8.5rem;
+        text-align: end;
+    }
+
+
+}

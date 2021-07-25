@@ -1,0 +1,60 @@
+@media (max-width:1200px) {
+    .container{
+     max-width: 960px;
+
+
+    }
+}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+        .prod-vala{
+            margin-bottom: 3.5rem;
+            &__block{
+                margin-bottom: 0rem;
+            }
+        }
+
+
+
+
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+        .prod-vala{
+
+            &__block{
+                flex-direction: column;
+                :nth-child(2) {
+                    align-self: start;}
+            }
+
+            &__elem{
+                margin-bottom: 0rem;
+            }
+            &__title{
+                margin-bottom: 1.5rem;
+            }
+            &__descr{
+                margin-bottom: 1.5rem;
+            }
+        }
+
+    }
+}
+
+
+
+@media (max-width:540px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+
+
+    }
+}

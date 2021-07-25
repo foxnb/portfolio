@@ -1,0 +1,20 @@
+.education{
+    &__block{
+    display: flex;
+    }
+    li{
+        list-style-type: none;
+    }
+
+    &__list{
+        margin-left: 2rem;
+    }
+    &__item{
+        margin-bottom: 3.5rem;
+    }
+
+    picture{
+        padding-top: 0.4rem;
+    }
+
+}

@@ -1,0 +1,49 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+
+    }}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+
+
+
+
+    }}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+
+        .prototype-vala{
+            &__oval{
+                display: none;
+            }
+
+            &__block{
+                margin-bottom: 0rem;
+            }
+            &__user-flow_title{
+                margin-bottom: 1.5rem;
+            }
+
+            &__prototyping_title{
+                margin-bottom: 1.5rem;
+            }
+        }
+
+
+
+    }
+}
+
+@media (max-width:540px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+
+
+    }}

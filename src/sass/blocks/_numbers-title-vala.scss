@@ -1,0 +1,49 @@
+.name-block__number{
+
+
+    font-weight: normal;
+    font-size: 21.8rem;
+    line-height: 380px;
+
+    color: $green-number-vala;
+
+    opacity: 0.44;
+}
+
+.name-block__title{
+    min-width:450px;
+    font-weight: bold;
+    font-size: $fz-40-page-t;
+    line-height: 55px;
+    text-transform: uppercase;
+
+    color: $grey-portfolio;
+}
+
+.descr-block{
+    // padding-top: 6rem;
+
+        font-size: $fz-24-ordinary;
+        line-height: 61px;
+        letter-spacing: 0.035em;
+        color:$text-color;
+}
+.vala_right_t{
+    text-align: right;
+}
+
+span.black{
+    font-weight: bold;
+    font-size: $fz-36-subt;
+
+    text-transform: uppercase;
+}
+
+span.green{
+    font-weight: bold;
+font-size: $fz-36-subt;
+line-height: 41px;
+text-transform: uppercase;
+
+color: $dark-green;
+}

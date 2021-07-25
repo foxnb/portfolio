@@ -1,0 +1,63 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+
+    }}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+
+
+            .research_title{
+                margin-bottom: 2rem;
+
+            }
+
+
+
+
+
+
+    }}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+
+        .research-vala{
+            &__block{
+                display: inline;
+                #research_3{
+                    text-align: end;
+                }
+                // grid-template-columns: 1fr;
+                // grid-template-rows: repeat(3, minmax(200px, auto));
+                // grid-auto-rows: auto;
+
+            }
+            // #research_3{
+            //     grid-column-start: 0;
+            //     grid-column-end: 1;
+            // }
+        }
+
+        .research_title{
+            margin-bottom: 1.5rem;
+
+        }
+
+
+
+
+    }
+}
+
+@media (max-width:540px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+
+
+    }}

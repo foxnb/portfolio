@@ -1,0 +1,75 @@
+@media (max-width:1200px) {
+    .container{
+        max-width: 960px;
+        .about-vala{
+            &__descr-block{
+                padding-top: 3.5rem;
+            }
+        }
+
+    }}
+
+@media (max-width:992px) {
+    .container{
+        max-width: 720px;
+
+        // .name-block__number{
+
+        //     font-size: 17rem;
+        //     line-height: 16rem;
+        // }
+        // .name-block__title{
+        //     width:380px;
+
+        //     font-size: $fz-30-titlemob;
+        //     line-height: 70px;
+
+
+        // }
+        // .about-vala{
+        //     &__descr-block{
+        //         padding-top: 0rem;
+        //         font-size: $fz-20-media;
+        //         line-height: 2.8rem;
+        //     }
+        // }
+
+
+    }}
+
+@media (max-width:768px) {
+    .container{
+        max-width: 540px;
+
+
+
+
+        .about-vala{
+            margin-bottom: 1.5rem;
+            &__block{
+                flex-direction: column;
+            }
+        }
+
+    }
+}
+
+@media (max-width:540px) {
+            .container{
+                width: 100%;
+                padding: 0 10px;
+
+                // .name-block__number{
+
+                //     font-size: 12rem;
+                //     line-height: 10rem;
+
+                // }
+
+                // .name-block__title{
+                //     width:100%;
+                //     margin-bottom: 2rem ;
+                //     font-size: $fz-24-ordinary;
+                //     line-height: 2rem;
+                // }
+            }}

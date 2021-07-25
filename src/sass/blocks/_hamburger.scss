@@ -1,0 +1,35 @@
+
+.burger_menu{
+    position:relative;
+    z-index: 1;
+}
+.hamburger{
+
+            position: absolute;
+            top:25px;
+            right: 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-end;
+            cursor: pointer;
+            height: 2.5rem;
+
+            span{
+                display: block;
+                width: 60px;
+                height: 7px;
+                border-radius: 6px;
+
+            }
+            span.light_green{
+            background-color:  #58A240;
+            }
+            span.green{
+
+                background-color: #315C22;
+            }
+            span.black{
+                background-color: #0D1909;
+            }
+        }
